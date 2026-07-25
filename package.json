@@ -1,0 +1,24 @@
+{
+  "name": "node-task-api",
+  "version": "1.0.0",
+  "description": "Minimal Node.js/Express REST API for tasks, with auth, validation, error handling, tests, and CI",
+  "main": "src/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nedb-promises": "^6.2.3"
+  }
+}
